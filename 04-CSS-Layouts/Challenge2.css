@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* ARTICLE FOR THE PRODUCT */
@@ -115,7 +114,7 @@ a:active {
 
 h3 {
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 15px;
 }
 
@@ -146,63 +145,3 @@ button:hover {
   background-color: white;
   color: black;
 }
-
-/* FLOATS */
-.img {
-  float: left;
-  /* width: 30%;
-  width: 250px; */
-}
-
-.price-details {
-  /* width: 70%; */
-  width: 529px;
-  /* background-color: #444; */
-  float: right;
-  /* padding-left: 5px; */
-  /* padding-top: 10px; */
-}
-
-.container::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
-.price {
-  /* background-color: green; */
-  float: left;
-}
-
-.ship {
-  /* background-color: orangered; */
-  float: right;
-  margin-top: 5px;
-}
-
-.ready-text {
-  clear: both;
-}
-
-.pricing {
-  /* background-color: blue; */
-  float: left;
-  /* width: 50%; */
-  width: 245px;
-  margin-top: 20px;
-  /* padding-right: 5px; */
-}
-
-.details {
-  /* background-color: brown; */
-  float: right;
-  /* width: 50%; */
-  width: 245px;
-  /* padding-left: 5px; */
-}
-
-/* .price-details::after{
-  display: block;
-  content: "";
-  clear: both;
-} */
