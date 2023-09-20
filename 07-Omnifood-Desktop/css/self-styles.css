@@ -1,0 +1,15 @@
+.one {
+  border-radius: 9px 0 0 0;
+}
+
+.three {
+  border-radius: 0 9px 0 0;
+}
+
+.twelve {
+  border-radius: 0 0 9px 0;
+}
+
+.ten {
+  border-radius: 0 0 0 9px;
+}
