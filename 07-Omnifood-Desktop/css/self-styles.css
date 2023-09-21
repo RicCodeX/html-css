@@ -1,15 +1,15 @@
 .one {
-  border-radius: 9px 0 0 0;
+  border-radius: 11px 0 0 0;
 }
 
 .three {
-  border-radius: 0 9px 0 0;
+  border-radius: 0 11px 0 0;
 }
 
 .twelve {
-  border-radius: 0 0 9px 0;
+  border-radius: 0 0 11px 0;
 }
 
 .ten {
-  border-radius: 0 0 0 9px;
+  border-radius: 0 0 0 11px;
 }
